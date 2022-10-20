@@ -5,36 +5,6 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"a@workspace:apps/a":
-  version: 0.0.0-use.local
-  resolution: "a@workspace:apps/a"
-  dependencies:
-    has-symbols: ^1.0.3
-  languageName: unknown
-  linkType: soft
-
-"b@workspace:apps/b":
-  version: 0.0.0-use.local
-  resolution: "b@workspace:apps/b"
-  dependencies:
-    function-bind: ^1.1.1
-  languageName: unknown
-  linkType: soft
-
-"function-bind@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "function-bind@npm:1.1.1"
-  checksum: b32fbaebb3f8ec4969f033073b43f5c8befbb58f1a79e12f1d7490358150359ebd92f49e72ff0144f65f2c48ea2a605bff2d07965f548f6474fd8efd95bf361a
-  languageName: node
-  linkType: hard
-
-"has-symbols@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "has-symbols@npm:1.0.3"
-  checksum: a054c40c631c0d5741a8285010a0777ea0c068f99ed43e5d6eb12972da223f8af553a455132fdb0801bdcfa0e0f443c0c03a68d8555aa529b3144b446c3f2410
-  languageName: node
-  linkType: hard
-
 "monorepo@workspace:.":
   version: 0.0.0-use.local
   resolution: "monorepo@workspace:."
